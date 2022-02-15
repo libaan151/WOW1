@@ -1,8 +1,8 @@
-_G.Prediction =  (  .18  )
+_G.Prediction =  (  0.155  )
 
 _G.FOV =  (  100  )
 
-_G.AimKey =  (  "e"  )
+_G.AimKey =  (  "k"  )
 
 
 --[[
@@ -26,9 +26,9 @@ FOV_CIRCLE.Color = Color3.new(0, 1, 0)
 FOV_CIRCLE.Radius = _G.FOV
 FOV_CIRCLE.Position = Vector2.new(Camera.ViewportSize.X / 2, Camera.ViewportSize.Y / 2)
 
-Options = {
-	Head = "HumanoidRootPart";
-	LowerTorso = "Head";
+Options = {"Head", "HumanoidRootPart", "Lowertorso"},
+	
+	
 }
 
 local function MoveFovCircle()
